@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import logo from './logo.svg';
 import './App.css';
+
 import Home from './components/home';
 import About from './components/about';
 import Services from './components/services';
@@ -21,5 +21,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
